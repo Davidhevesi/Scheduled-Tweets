@@ -8,6 +8,20 @@ class  TweetsController < ApplicationController
     def new
         @tweet = Tweet.new
     end 
+    def edit
+    end
+
+    def update
+      if @tweet.update(tweet_params)
+        redirect_to tweets_path, notice: "Tweet was updated successfully"
+      else
+        render :edit
+      end
+    end
+    def destroy
+      @tweet.destroy
+      redirect_to tweets_path, notice: "Tweet was unscheduled"
+    end
 
     def create
         @tweet = Current.user.tweets.new(tweet_params)
