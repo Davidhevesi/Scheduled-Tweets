@@ -22,7 +22,7 @@
   <%= form.button "Schedule", class: "btn btn-primary" %>
   
   <% if form.object.persisted? %>
-    <%= link_to "Unschedule", form.object, method: :delete, data: {confirm: "Are you sure you wawnt to unschedule this tweet?"}, class: "btn btn-outline-danger" %>
+    <%= link_to "Delete", form.object, method: :delete, data: {confirm: "Are you sure you wawnt to unschedule this tweet?"}, class: "btn btn-outline-danger" %>
   <% end %>
   
 <% end %>
