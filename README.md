@@ -56,7 +56,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## 5. Author Section
 
-👤 **Christian Otieno**
+👤 **David Hevesi**
 
 - Github: [davidhevesi](https://github.com/davidhevesi)
 - Twitter: [@davidhevesi](https://twitter.com/DavidHevesi)
