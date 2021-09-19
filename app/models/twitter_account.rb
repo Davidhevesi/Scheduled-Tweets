@@ -11,3 +11,4 @@ class TwitterAccount < ApplicationRecord
     config.access_token_secret = secret
   end
 end
+ 
